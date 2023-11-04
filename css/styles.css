@@ -462,7 +462,7 @@ background-color: #31d0aa;
     fill:#f4f4fd;
 }
 .footer-social-container{
-    margin-right: 0%;
+    margin-right: 80px;
 }
 .sub-btn{
     display: inline-flex;
@@ -491,7 +491,6 @@ background-color: #31d0aa;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #FFFFFF;
-margin-bottom: 16px;
     }
 .text-sub{
     width: 264px;
@@ -500,7 +499,6 @@ margin-bottom: 16px;
     border: 1px solid #FFFFFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: #2E2F42;
-    column-gap: 24px;
 }
 
 .text-sub::placeholder{
@@ -509,7 +507,19 @@ margin-bottom: 16px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    margin-left: 16px;
 }
 .subcribe-form{
+}
+.title-sub{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.subscr-container{
+    
 }
 /* ====== FOOTER STYLES ===== /*/
