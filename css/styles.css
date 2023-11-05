@@ -622,7 +622,7 @@ border-color: #4D5AE5;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-icons:focus{
+.text-form:focus + .modal-form-icons{
     fill: #4D5AE5;
 }
 .text-commment{
@@ -693,8 +693,9 @@ margin-bottom: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 8px;
 }
-.checkbox:checked .checkmark-decoration{
+.checkbox:checked + .text-checkbox .checkmark-decoration{
     fill: #F4F4FD;
     background-color: #404bbf;
     border: none;
