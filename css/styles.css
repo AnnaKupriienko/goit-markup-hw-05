@@ -572,7 +572,7 @@ background-color: #31d0aa;
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus{
-    fill: #ffffff
+    fill: #ffffff;
     border: none;
     background-color: #404BBF;
 }
